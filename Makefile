@@ -26,6 +26,9 @@ env:
 	@echo "env initialization ..."
 	pipenv install
 	pipenv run pre-commit install
+activate:
+	@echo "activate env ..."
+	pipenv shell
 
 run:
 	python app.py
