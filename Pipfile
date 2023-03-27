@@ -4,6 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+python-dotenv = "*"
+"discord.py" = "*"
+newsapi-python = "*"
 
 [dev-packages]
 
